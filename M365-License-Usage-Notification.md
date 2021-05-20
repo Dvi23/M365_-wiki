@@ -14,7 +14,7 @@
 <BR>
 
 **Steps to install:** <BR>
-1.	Login to Portal.Azure.com <BR>
+1.	Login to https://Portal.Azure.com <BR>
 2.	Navigate to App Registration <BR>
 
 ![](https://github.com/mattnovitsch/M365/blob/main/M365AppRegistration.JPG) 
