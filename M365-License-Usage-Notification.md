@@ -1,4 +1,3 @@
-**M365 License Usage Notification**<BR>
 **Reference:** <BR>
 * [Use Power Automate or Logic Apps to keep an eye on your licenses - JanBakker.tech](https://janbakker.tech/use-power-automate-or-logic-apps-to-keep-an-eye-on-your-licenses/) <BR>
 * [Reference guide to using functions in expressions for Azure Logic Apps and Power Automate](https://docs.microsoft.com/en-us/azure/logic-apps/workflow-definition-language-functions-reference) <BR>
