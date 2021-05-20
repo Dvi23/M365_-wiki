@@ -149,7 +149,10 @@
 
 <BR><BR>
 **NOTE:** Due to replication between the AAD and Power Automate permissions for the API could take several hours to complete. You might see errors that say you have insufficient privileges. <BR>
- 
+
+![](https://github.com/mattnovitsch/M365/blob/main/M365Error.jpg)
+
+<BR> 
 36.	Once complete you should start getting emails like this: <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Email.jpg)
 
