@@ -154,6 +154,7 @@
 
 <BR> 
 36.	Once complete you should start getting emails like this: <BR>
+
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Email.jpg)
 
 <BR><BR>
