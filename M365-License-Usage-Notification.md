@@ -6,7 +6,7 @@
 
 **Summary** <BR>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had a request from a customer to get notifications on when they were running out of licenses. They wanted to know when they were at 90% usage so they could acquire additional licenses or clean up some. I was able to search for a Power Automate report that does this from Jan Bakker from the Netherlands(link in the reference section). I was able to get it setup in my lab in a couple of hours and wanted to create an export for it for easier redistribution and some modifications to what was added to his.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I had a request from a customer to get notifications on when they were running out of licenses. They wanted to know when they were at 90% usage so they could acquire additional licenses or clean up some. I was able to search for a Power Automate report that does this from Jan Bakker from the Netherlands (link in the reference section). I was able to get it setup in my lab in a couple of hours and wanted to create an export for it for easier redistribution and some modifications to what was added to his.<BR>
 <BR>
 **Prerequisites** <BR>
 1. Power Automate Premium subscription.<BR>
