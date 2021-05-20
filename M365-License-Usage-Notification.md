@@ -10,7 +10,7 @@
 <BR>
 **Prerequisites** <BR>
 1. Power Automate Premium subscription.<BR>
-2. Download of License Usage Report.<BR>
+2. Download of [License Usage Report](https://github.com/mattnovitsch/M365/blob/main/LicenseUsageReport.zip).<BR>
 <BR>
 
 **Steps to install:** <BR>
