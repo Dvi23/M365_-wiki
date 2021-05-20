@@ -132,7 +132,7 @@
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Flow19.jpg)
 
 <BR> <BR>
-32.	Change the condition to meet your company’s requirements. Right now, its setup for 10% so I could trigger it in my lab. If you want daily emails, then 10% would be fine. If you want to know when you are 75% then just change it to 75. Scroll down to Apply to each > Condition then change the 10 to your desire configuration. <BR>
+32.	Change the condition to meet your company’s requirements. Right now, its setup for 10% so I could trigger it in my lab. If you want daily emails, then 10% would be fine. If you want to know when you are 75% then just change it to 75. Scroll down to Apply to each > Condition then change the 10 to your desire configuration. You could also delete percentage and use totals also, that would be completely up to your company. This template is just for percentage.<BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Flow14.jpg)
 
 <BR><BR>
