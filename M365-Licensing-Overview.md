@@ -7,6 +7,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 Prerequisites
 * [LicensingPowerBI.ps1](https://github.com/mattnovitsch/M365/blob/main/LicensingPowerBI.ps1)
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
+* [LicensingOverview.pbit](https://github.com/mattnovitsch/M365/blob/main/LicensingOverview.pbit)
 
 <BR>
 
