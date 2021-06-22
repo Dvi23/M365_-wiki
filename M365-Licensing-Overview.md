@@ -144,4 +144,9 @@ Prerequisites
 ![](https://github.com/mattnovitsch/M365/blob/main/M365LicensingOverview18.JPG)
 
 <BR>
+
+References:
+* [Product names and service plan identifiers for licensing](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-service-plan-reference)
+* [Permissions and consent in the Microsoft identity platform - Permission types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent?WT.mc_id=Portal-Microsoft_AAD_RegisteredApps#permission-types)
+
 <BR>
