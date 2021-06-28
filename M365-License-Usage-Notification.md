@@ -3,6 +3,7 @@
 * [Reference guide to using functions in expressions for Azure Logic Apps and Power Automate](https://docs.microsoft.com/en-us/azure/logic-apps/workflow-definition-language-functions-reference) <BR>
 * [Power Automate documentation](https://docs.microsoft.com/en-us/power-automate/) <BR>
 * [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) <BR>
+* [Mail Connector - Throttling Limits](https://docs.microsoft.com/en-us/connectors/sendmail/#throttling-limits) <BR>
 
 **Summary** <BR>
 
