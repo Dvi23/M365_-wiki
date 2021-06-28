@@ -137,7 +137,7 @@
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Flow14.jpg)
 
 <BR><BR>
-33.	The last thing we need to change is the email address this is going to. Right now, its setup to go to Testing@reply.com. You will need to change it to a distribution list or person(s) you want to get this notification. <BR>
+33.	The last thing we need to change is the email address this is going to. Right now, its setup to go to Testing@reply.com. You will need to change it to a distribution list or person(s) you want to get this notification. Please note that there limits to the number of emails that can be sent. [Mail Connector - Throttling Limits](https://docs.microsoft.com/en-us/connectors/sendmail/#throttling-limits)<BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365Flow18.jpg)
 
 <BR><BR>
