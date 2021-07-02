@@ -48,44 +48,55 @@ There are 3 different ways to [Enroll devices in Update Compliance](https://docs
 ![](https://github.com/mattnovitsch/M365/blob/main/UC8.jpg)
 
 <BR>
-14. Add the following settings: <BR>
-> Name: Commercial ID.
-<BR>
-> Description: Sets the Commercial ID that corresponds to the Update Compliance Log Analytics workspace.
-<BR>
-> OMA-URI: ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID.
-<BR>
-> Data type: String.
-<BR>
-> Value: "enter your CommericalID from the notepad you saved it on earlier".
-<BR>
-<BR>
+14. Add the following settings then click save: <BR>
+* Name: Commercial ID <BR>
+* Description: Sets the Commercial ID that corresponds to the Update Compliance Log Analytics workspace. <BR>
+* OMA-URI: ./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID <BR>
+* Data type: String <BR>
+* Value: "enter your CommericalID from the notepad you saved it on earlier"<BR>
 
 ![](https://github.com/mattnovitsch/M365/blob/main/UC9.jpg)
 
 <BR>
+15. Click Add on the Configuration Settings Screen to start add the next settings. <BR>
+16. Add the following settings then click save: <BR>
+* Name: Allow Telemetry <BR>
+* Description: Sets the maximum allowed diagnostic data to be sent to Microsoft, required for Update Compliance. <BR>
+* OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowTelemetry <BR>
+* Data type: Integer <BR>
+* Value: 1 (all that is required is 1, but it can be safely set to a higher value). I changed mine to 3 for optional. <BR>
 
-Add a setting configuring the Windows Diagnostic Data level for devices:
-Name: Allow Telemetry
-Description: Sets the maximum allowed diagnostic data to be sent to Microsoft, required for Update Compliance.
-OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowTelemetry
-Data type: Integer
-Value: 1 (all that is required is 1, but it can be safely set to a higher value).
-(Recommended, but not required) Add a setting for disabling devices' Diagnostic Data opt-in settings interface. If this is not disabled, users of each device can potentially override the diagnostic data level of devices such that data will not be available for those devices in Update Compliance:
-Name: Disable Telemetry opt-in interface
-Description: Disables the ability for end-users of devices can adjust diagnostic data to levels lower than defined by the Allow Telemetry setting.
-OMA-URI: ./Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInSettingsUx
-Data type: Integer
-Value: 1
-Add a setting to Allow device name in diagnostic data; otherwise, there will be no device name in Update Compliance:
-Name: Allow device name in Diagnostic Data
-Description: Allows device name in Diagnostic Data.
-OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowDeviceNameInDiagnosticData
-Data type: Integer
-Value: 1
-Add a setting to Allow Update Compliance processing; this policy is required for Update Compliance:
-Name: Allow Update Compliance Processing
-Description: Opts device data into Update Compliance processing. Required to see data.
-OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowUpdateComplianceProcessing
-Data type: Integer
-Value: 16
+![](https://github.com/mattnovitsch/M365/blob/main/UC10.jpg)
+
+<BR>
+17. Click Add on the Configuration Settings Screen to start add the next settings. <BR>
+18. Add the following settings then click save: <BR>
+* Name: Disable Telemetry opt-in interface <BR>
+* Description: Disables the ability for end-users of devices can adjust diagnostic data to levels lower than defined by the Allow Telemetry setting. <BR>
+* OMA-URI: ./Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInSettingsUx <BR>
+* Data type: Integer <BR>
+* Value: 1 <BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC12.jpg)
+
+<BR>
+17. Click Add on the Configuration Settings Screen to start add the next settings. <BR>
+18. Add the following settings then click save: <BR>
+* Name: Allow device name in Diagnostic Data <BR>
+* Description: Allows device name in Diagnostic Data. <BR>
+* OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowDeviceNameInDiagnosticData <BR>
+* Data type: Integer <BR>
+* Value: 1 <BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC13.jpg)
+
+<BR>
+19. Click Add on the Configuration Settings Screen to start add the next settings. <BR>
+20. Add the following settings then click save: <BR>
+* Name: Allow Update Compliance Processing <BR>
+* Description: Opts device data into Update Compliance processing. Required to see data. <BR>
+* OMA-URI: ./Vendor/MSFT/Policy/Config/System/AllowUpdateComplianceProcessing <BR>
+* Data type: Integer <BR>
+* Value: 16 <BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC14.jpg)
