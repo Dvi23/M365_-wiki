@@ -100,3 +100,18 @@ There are 3 different ways to [Enroll devices in Update Compliance](https://docs
 * Value: 16 <BR>
 
 ![](https://github.com/mattnovitsch/M365/blob/main/UC14.jpg)
+
+<BR>
+21. Click Next to go to the Assignments tab. <BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC15.jpg)
+<BR>
+22. I'm adding it to all my devices, I would recommend a pilot group if this is a production tenant. Click Next to go to applicability rules.<BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC16.jpg)
+<BR>
+23. I added a Rule that will make sure its my Windows 10 Enterprise devices that get this policy only. You can also apply it to certain versions of Windows. Click Next once you have added your rule.<BR>
+
+![](https://github.com/mattnovitsch/M365/blob/main/UC17.jpg)
+<BR>
+24. 
