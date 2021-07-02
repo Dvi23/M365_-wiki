@@ -114,4 +114,5 @@ There are 3 different ways to [Enroll devices in Update Compliance](https://docs
 
 ![](https://github.com/mattnovitsch/M365/blob/main/UC17.jpg)
 <BR>
-24. 
+
+Your Update compliance should now work, please note it takes up to 24 hours for data to start coming into the system. Mine was closer to 36, but I think it was because of all the changes I was making trying to force it. If you want you can also deploy the script found here: [Update Compliance Script](https://docs.microsoft.com/en-us/windows/deployment/update/update-compliance-configuration-script#how-to-use-this-script).
