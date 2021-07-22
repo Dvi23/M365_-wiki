@@ -27,5 +27,9 @@ Deploying Custom Inventory PowerShell scripts via Intune. We will walk through d
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS3.jpg)
 9. Enter a name for the script. I am using Custom_Inventory for this example, click Next to continue.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS4.jpg)
-10. Browse to the location where CustomInventory.ps1 and select it. Also make sure to set "Run script in 64 bit PowerShell Host" to Yes.
+10. Browse to the location where CustomInventory.ps1 and select it. Also make sure to set "Run script in 64 bit PowerShell Host" to Yes. Click Next to continue.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS5.jpg)
+11. Add a test group(s) that you want to include and any that you want to exclude, then click Next.
+![](https://github.com/mattnovitsch/M365/blob/main/DPS6.jpg)
+12. Review the configuration and click Add to finish deployment of the script. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/DPS7.jpg)
