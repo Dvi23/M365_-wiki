@@ -31,7 +31,7 @@ This will provide you with patch compliance, hardware inventory, operating syste
 
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD6.jpg)
 <BR>
-8. Repeat this step for all the tables except for UpdateDeployment.
+8. Repeat this step for all the tables except for UpdateDeployment, AppInventory, and DeviceInventory.
 
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD7.jpg)
 <BR>
@@ -45,7 +45,7 @@ This will provide you with patch compliance, hardware inventory, operating syste
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD8.jpg)
 13. Select Logs. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD9.jpg)
-14. Change the time range to 7 days and type in "WaaSDeploymentStatus" in the query field.
+14. Change the time range to 7 days and type in "WaaSDeploymentStatus" in the query field. Click Run to execute the query.
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD10.jpg)
 15. Select Export and Export to Power BI(M query)
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD11.jpg)
@@ -54,6 +54,8 @@ This will provide you with patch compliance, hardware inventory, operating syste
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD12.jpg)
 18. Delete all the content that is in the UpdateDeployment Advance Editor screen and paste in what you got from the PowerBIQuery.txt file that you downloaded from step above. Click done to save the update. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD13.jpg)
+19. Go back to the Azure Portal page. Type in "AppInventory_CL", then click run. Repeat steps 15-17 for "DeviceInventory_CL".
+![](https://github.com/mattnovitsch/M365/blob/main/UCD20.jpg)
 19. Click Close & Apply in the top right corner. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD14.jpg)
 20. Wait for the report to collect the data. <BR>
@@ -65,3 +67,5 @@ You have completed the deployment of the dashboard, don't forget to save it. You
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD17.jpg) <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD18.jpg) <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD19.jpg) <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/UCD21.jpg) <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/UCD22.jpg) <BR>
