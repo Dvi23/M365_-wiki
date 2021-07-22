@@ -19,5 +19,13 @@ Deploying Custom Inventory PowerShell scripts via Intune. We will walk through d
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS1.jpg)
 3. Download [CustomInventory.ps1](https://github.com/mattnovitsch/M365/blob/main/CustomInventory.ps1)
 4. Open CustomInventory.ps1 in PowerShell ISE as an administrator.
-5. Go to line 25 where it has $CustomerID = ""
-4. Paste your customer ID in there.
+5. Go to line 25 where it has $CustomerID = "", paste your customer ID there. Past your Primary Key on line 28: $SharedKey = ""
+![](https://github.com/mattnovitsch/M365/blob/main/DPS2.jpg)
+6. Save CustomInventory.ps1
+7. Navigate to [Intune](https://endpoint.microsoft.com)
+8. Navigate to Devices > Scripts then click Add then select Windows 10.<BR>
+![](https://github.com/mattnovitsch/M365/blob/main/DPS3.jpg)
+9. Enter a name for the script. I am using Custom_Inventory for this example, click Next to continue.
+![](https://github.com/mattnovitsch/M365/blob/main/DPS4.jpg)
+10. Browse to the location where CustomInventory.ps1 and select it. Also make sure to set "Run script in 64 bit PowerShell Host" to Yes.
+![](https://github.com/mattnovitsch/M365/blob/main/DPS5.jpg)
