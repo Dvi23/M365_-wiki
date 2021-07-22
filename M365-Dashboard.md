@@ -3,13 +3,13 @@ This will provide you with patch compliance, hardware inventory, operating syste
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
-* [Update Compliance Dashboard](https://github.com/mattnovitsch/M365/blob/main/UpdateComplianceDashboard.pbit)
+* [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
 * [Update Compliance Enabled](https://github.com/mattnovitsch/M365/wiki/Enabling-Update-Compliance)
 * [How to retrieve your Intune Data Warehouse URL](https://github.com/mattnovitsch/M365/wiki/How-to-retrieve-your-Intune-Data-Warehouse-URL)
 * [Intune Deploy PowerShell Scripts with Reporting Capabilities](https://github.com/mattnovitsch/M365/wiki/Intune---Deploy-PowerShell-Scripts-with-Reporting-Capabilities)
 
 ## Steps
-1. Open [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/UpdateComplianceDashboard.pbit)
+1. Open [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
 2. You will be prompted to login after it tries to retrieve data from my environment which it will fail. Click Cancel. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD1.jpg)
 
