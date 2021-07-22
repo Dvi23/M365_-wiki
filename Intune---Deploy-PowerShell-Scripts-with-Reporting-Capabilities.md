@@ -33,3 +33,7 @@ Deploying Custom Inventory PowerShell scripts via Intune. We will walk through d
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS6.jpg)
 12. Review the configuration and click Add to finish deployment of the script. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS7.jpg)
+
+# Note
+Please give this a couple of hours before trying to pull data, it could take longer depending on your environment size. You can validate there is data by navigating back to Log Analytics Workspace > "YourWorkplace" > Logs. You should see Custom Logs AppInventory_CL and DeviceInventory_CL. 
+![](https://github.com/mattnovitsch/M365/blob/main/DPS8.jpg)
