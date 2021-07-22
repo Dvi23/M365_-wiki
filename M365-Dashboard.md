@@ -1,5 +1,11 @@
 # Summary
-This will provide you with patch compliance, hardware inventory, operating system versions, and endpoint assignment for all your Intune and co-managed devices.
+This will Power BI report has the following information in it:
+* Device usage
+* OSVersions
+* Updates Compliance
+* Hardware Inventory
+* Application Inventory
+* Endpoint Security
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
