@@ -2,7 +2,7 @@
 
 Deploying Custom Inventory PowerShell scripts via Intune. We will walk through deploying the custominventory script and how to get reporting data off of it. Most of the script came from Jan Ketil Skanke but I modified it to add some additional security settings I was looking for on the devices.
 
-# Major Update
+# Major Update - 8/9/2021
 
 The scripts need to be deployed under Endpoint Analytics so they are continuously ran, the scripts only run once until successful otherwise.
 
