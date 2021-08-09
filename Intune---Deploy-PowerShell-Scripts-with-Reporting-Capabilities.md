@@ -43,4 +43,4 @@ The scripts need to be deployed under Endpoint Analytics so they are continuousl
 
 # Note
 Please give this a couple of hours before trying to pull data, it could take longer depending on your environment size. You can validate there is data by navigating back to Log Analytics Workspace > "YourWorkplace" > Logs. You should see Custom Logs AppInventory_CL and DeviceInventory_CL. 
-![](https://github.com/mattnovitsch/M365/blob/main/DPS8.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/DPS9.jpg)
