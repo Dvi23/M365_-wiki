@@ -2,6 +2,10 @@
 
 Deploying Custom Inventory PowerShell scripts via Intune. We will walk through deploying the custominventory script and how to get reporting data off of it. Most of the script came from Jan Ketil Skanke but I modified it to add some additional security settings I was looking for on the devices.
 
+# Major Update
+
+The scripts need to be deployed under Endpoint Analytics so they are continuously ran, the scripts only run once until successful otherwise.
+
 ## Reference
 * [Enhance Intune Inventory Data with Proactive Remediations and Log Analytics](https://msendpointmgr.com/2021/04/12/enhance-intune-inventory-data-with-proactive-remediations-and-log-analytics/)
 
@@ -22,17 +26,20 @@ Deploying Custom Inventory PowerShell scripts via Intune. We will walk through d
 5. Go to line 25 where it has $CustomerID = "", paste your customer ID there. Past your Primary Key on line 28: $SharedKey = ""
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS2.jpg)
 6. Save CustomInventory.ps1
-7. Navigate to [Intune](https://endpoint.microsoft.com)
-8. Navigate to Devices > Scripts then click Add then select Windows 10.<BR>
+7. Navigate to [Microsoft Endpoint Manager](https://endpoint.microsoft.com)
+8. Navigate to Reports > Endpoint Analytics.<BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS3.jpg)
-9. Enter a name for the script. I am using Custom_Inventory for this example, click Next to continue.
+9. Click on Proactive remediations > Create Script Package.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS4.jpg)
-10. Browse to the location where CustomInventory.ps1 and select it. Also make sure to set "Run script in 64 bit PowerShell Host" to Yes. Click Next to continue.
+10. Provide the script a name, for example CustomInventory then click Next.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS5.jpg)
-11. Add a test group(s) that you want to include and any that you want to exclude, then click Next.
+11. Upload your customerinventory.ps1 script and make sure Run Script as 64-Bit is set to yes, then click Next.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS6.jpg)
-12. Review the configuration and click Add to finish deployment of the script. <BR>
+12. Assign any Scope Tags then click next.
+13. Assign the groups you want the scripts to deploy to, I'm deploying to all devices for this example. Change the schedule to your desire, daily is fine. Click next to continue.
 ![](https://github.com/mattnovitsch/M365/blob/main/DPS7.jpg)
+14. Review your remediation for errors then click create to complete the setup.
+![](https://github.com/mattnovitsch/M365/blob/main/DPS8.jpg)
 
 # Note
 Please give this a couple of hours before trying to pull data, it could take longer depending on your environment size. You can validate there is data by navigating back to Log Analytics Workspace > "YourWorkplace" > Logs. You should see Custom Logs AppInventory_CL and DeviceInventory_CL. 
