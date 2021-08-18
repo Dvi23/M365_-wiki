@@ -83,7 +83,11 @@ This will Power BI report has the following information in it:
 
 You have completed the deployment of the dashboard, don't forget to save it. Your dashboards should look something like these.
 ![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard2.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard3.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard4.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard5.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard6.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard7.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard8.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard9.jpg)
