@@ -1,11 +1,23 @@
+# Update 8.18.2021
+I merged the User/Devices and the OSVersion Pages. I felt this made sense in doing so. I also added some android devices to my lab using [Android Studio](https://developer.android.com/studio/). This is why there was some design changes. I also got some Microsoft Defender for Endpoint licenses and started to add some more security pieces to the mix. Here are the new pages:
+* ATP- Application Inventory
+* CVEVulnerabilities
+* ATP - Hunting
+* ATP - Unhealthy Endpoints
+* ATP - High Risk Endpoints
+
 # Summary
 This will Power BI report has the following information in it:
 * Device usage
-* OSVersions
 * Updates Compliance
 * Hardware Inventory
 * Application Inventory
+* ATP- Application Inventory
 * Endpoint Security
+* CVEVulnerabilities
+* ATP - Hunting
+* ATP - Unhealthy Endpoints
+* ATP - High Risk Endpoints
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
@@ -62,16 +74,16 @@ This will Power BI report has the following information in it:
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD13.jpg)
 19. Go back to the Azure Portal page. Type in "AppInventory_CL", then click run. Repeat steps 15-17 for "DeviceInventory_CL".
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD20.jpg)
+20. Back in Power BI Desktop, repeat steps 6-8 for all the tables with ATP at the beginning.
+![](https://github.com/mattnovitsch/M365/blob/main/UCD16.jpg)
 19. Click Close & Apply in the top right corner. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD14.jpg)
 20. Wait for the report to collect the data. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD15.jpg)
 
 You have completed the deployment of the dashboard, don't forget to save it. Your dashboards should look something like these.
-
-![](https://github.com/mattnovitsch/M365/blob/main/UCD16.jpg) <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/UCD17.jpg) <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/UCD18.jpg) <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/UCD19.jpg) <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/UCD21.jpg) <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/UCD22.jpg) <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
