@@ -25,6 +25,7 @@ This will Power BI report has the following information in it:
 * [Update Compliance Enabled](https://github.com/mattnovitsch/M365/wiki/Enabling-Update-Compliance)
 * [How to retrieve your Intune Data Warehouse URL](https://github.com/mattnovitsch/M365/wiki/How-to-retrieve-your-Intune-Data-Warehouse-URL)
 * [Intune Deploy PowerShell Scripts with Reporting Capabilities](https://github.com/mattnovitsch/M365/wiki/Intune---Deploy-PowerShell-Scripts-with-Reporting-Capabilities)
+* Defender ATP Licenses and deployment(these are optional but without the licenses the pages will not work).
 
 ## Steps
 1. Open [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
