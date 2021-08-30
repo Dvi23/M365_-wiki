@@ -15,12 +15,7 @@ This will Power BI report has the following information in it:
 * Updates Compliance
 * Hardware Inventory
 * Application Inventory
-* ATP- Application Inventory
 * Endpoint Security
-* CVEVulnerabilities
-* ATP - Hunting
-* ATP - Unhealthy Endpoints
-* ATP - High Risk Endpoints
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
@@ -90,8 +85,4 @@ You have completed the deployment of the dashboard, don't forget to save it. You
 ![](https://github.com/mattnovitsch/M365/blob/main/Dashboard2.jpg)
 ![](https://github.com/mattnovitsch/M365/blob/main/Dashboard3.jpg)
 ![](https://github.com/mattnovitsch/M365/blob/main/Dashboard4.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard5.jpg)
 ![](https://github.com/mattnovitsch/M365/blob/main/Dashboard6.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard7.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard8.jpg)
-![](https://github.com/mattnovitsch/M365/blob/main/Dashboard9.jpg)
