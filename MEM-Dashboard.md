@@ -1,13 +1,5 @@
-# Update 8.19.2021
-I had a some update to the PowerBI Template file that was preventing some alerts from being displayed in the ATP-Hunting page. 
-
-# Update 8.18.2021
-I merged the User/Devices and the OSVersion Pages. I felt this made sense in doing so. I also added some android devices to my lab using [Android Studio](https://developer.android.com/studio/). This is why there was some design changes. I also got some Microsoft Defender for Endpoint licenses and started to add some more security pieces to the mix. Here are the new pages:
-* ATP- Application Inventory
-* CVEVulnerabilities
-* ATP - Hunting
-* ATP - Unhealthy Endpoints
-* ATP - High Risk Endpoints
+# Update 8/30/2021
+I removed the ATP pages and created their own dashboard as for large amounts of data it was taking a very long time. This dashboard is being limited to just MEM.
 
 # Summary
 This will Power BI report has the following information in it:
