@@ -19,14 +19,14 @@ This will Power BI report has the following information in it:
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
-* [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
+* [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit)
 * [Update Compliance Enabled](https://github.com/mattnovitsch/M365/wiki/Enabling-Update-Compliance)
 * [How to retrieve your Intune Data Warehouse URL](https://github.com/mattnovitsch/M365/wiki/How-to-retrieve-your-Intune-Data-Warehouse-URL)
 * [Intune Deploy PowerShell Scripts with Reporting Capabilities](https://github.com/mattnovitsch/M365/wiki/Intune---Deploy-PowerShell-Scripts-with-Reporting-Capabilities)
 * Defender ATP Licenses and deployment(these are optional but without the licenses the pages will not work).
 
 ## Steps
-1. Open [M365 Dashboard](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
+1. Open [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit)
 2. You will be prompted to login after it tries to retrieve data from my environment which it will fail. Click Cancel. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD1.jpg)
 
@@ -71,10 +71,6 @@ This will Power BI report has the following information in it:
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD12.jpg)
 18. Delete all the content that is in the UpdateDeployment Advance Editor screen and paste in what you got from the PowerBIQuery.txt file that you downloaded from step above. Click done to save the update. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD13.jpg)
-19. Go back to the Azure Portal page. Type in "AppInventory_CL", then click run. Repeat steps 15-17 for "DeviceInventory_CL".
-![](https://github.com/mattnovitsch/M365/blob/main/UCD20.jpg)
-20. Back in Power BI Desktop, repeat steps 6-8 for all the tables with ATP at the beginning.
-![](https://github.com/mattnovitsch/M365/blob/main/UCD16.jpg)
 19. Click Close & Apply in the top right corner. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/UCD14.jpg)
 20. Wait for the report to collect the data. <BR>
