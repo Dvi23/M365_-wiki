@@ -1,1 +1,1 @@
-Welcome to the Matt Novitsch wiki Page, I'll be hosting my projects here that I have done for M365.
+Welcome to the Matt Novitsch wiki Page, I'll be hosting my projects here that I have done for M365. I have been working with Microsoft Defender for Endpoints and Microsoft Endpoint Manager. I have about 20 years experience in the Information Technology field most of which has been around endpoint management.
