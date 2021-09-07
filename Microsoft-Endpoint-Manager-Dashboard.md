@@ -1,5 +1,5 @@
-# Update 8/30/2021
-I removed the ATP pages and created their own dashboard as for large amounts of data it was taking a very long time. This dashboard is being limited to just MEM.
+# Update 9/7/2021
+I found out the column I was user for what I thought was primary user was in fact enrollment user. I had to add another table called userDeviceAssociations and redo some of the relationships on the tables but I got it corrected now. Please download the new [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit) file to get the corrections.
 
 # Summary
 This will Power BI report has the following information in it:
