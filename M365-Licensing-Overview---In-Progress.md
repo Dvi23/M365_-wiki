@@ -7,7 +7,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 # Prerequisites: <br>
 * Power Automate Premium License
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
-* [M365License.pbit](https://github.com/mattnovitsch/M365/blob/main/M365License.pbit)
+* [M365Dashboard.pbit](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
 * [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211009122143.zip)
 * [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211009122547.zip)
 * [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211009121621.zip)
@@ -17,3 +17,8 @@ This report is meant to give you a general overview of your licenses and breakdo
 * [Product names and service plan identifiers for licensing](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 * [Permissions and consent in the Microsoft identity platform - Permission types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent?WT.mc_id=Portal-Microsoft_AAD_RegisteredApps#permission-types)
 <BR>
+
+# Steps: <BR>
+
+1. Navigate to [Power Automate](https://flow.microsoft.com)
+2. 
