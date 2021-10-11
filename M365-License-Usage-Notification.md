@@ -13,10 +13,10 @@
 
 
 ## Prerequisites
-<BR>
-1. Power Automate Premium subscription.<BR>
-2. Download of [License Usage Report](https://github.com/mattnovitsch/M365/blob/main/LicenseUsageNotification/LicenseUsageReport.zip).<BR>
-<BR>
+
+* Power Automate Premium subscription. 
+* [LicenseUsageReport](https://github.com/mattnovitsch/M365/blob/main/LicenseUsageNotification/LicenseUsageReport.zip)
+
 
 ## Steps to install:
  <BR>
