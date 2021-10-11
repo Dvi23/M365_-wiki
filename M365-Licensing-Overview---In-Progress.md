@@ -4,7 +4,8 @@ This report is meant to give you a general overview of your licenses and breakdo
 <BR> Please note I am not a licensing expert by any means. What I have found that in creating this report, Microsoft Licensing is really confusing to me so I have given it my best effort. An example of this is, if you turn off Microsoft Insider Risk Management it shows up in the report as Exchange as part of that component so you will see Exchange enable and disabled because of piece of Exchange(Microsoft Insider Risk Management module) is disabled.
 
 
-# Prerequisites: <br>
+## Prerequisites: <br>
+
 * Power Automate Premium License
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
 * [M365Dashboard.pbit](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
@@ -13,12 +14,13 @@ This report is meant to give you a general overview of your licenses and breakdo
 * [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211009121621.zip)
 <BR>
 
-# References:
+## References:
+
 * [Product names and service plan identifiers for licensing](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 * [Permissions and consent in the Microsoft identity platform - Permission types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent?WT.mc_id=Portal-Microsoft_AAD_RegisteredApps#permission-types)
 <BR>
 
-# Steps: <BR>
+## Steps: <BR>
 
 1. Navigate to [Power Automate](https://flow.microsoft.com)
 2. 
