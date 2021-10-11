@@ -23,32 +23,46 @@ This report is meant to give you a general overview of your licenses and breakdo
 ## Steps: <BR>
 
 1. Navigate to [Power Automate](https://flow.microsoft.com)
-2. Click on My Flows then Import.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L1.jpg)
-3. Click Upload.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L2.jpg)
-4. Navigate where you downloaded [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211009122143.zip),  [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211009122547.zip), and [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211009121621.zip). Select one of the files then click open.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L3.jpg)
-5. Once the Package has uploaded you will need the review process, this is required to correct the configurations of the package. Click the Action wrench to configure each area.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L4.jpg)
-6. In this example our first configuration item is the option to update or create as new, this is because my lab already has the package. This will be handy if I ever need to update it and repost for everyone to use. I'm going to create as new in this example and add the tag -demo on the resource name. Yours should be just create as new or it will probably not ask you at all. I'm clicking save to proceed.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L5.jpg)
-7. If you do not have a Azure Log Analytics connection then click create new. If you do have one, select your existing connection and click save.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L6.jpg)
-8. Skip steps 8 through 10 if you already have a connection. Click New Connection in the top of the new tab.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L7.jpg)
-9. Type Azure Log in the top right Search box and then select Azure Log Analytics Data Collector.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L8.jpg)
-10. Type in your Workspace ID and Workspace Key. (You can get your keys by following these steps: [Getting Azure Log Analytics Keys](https://github.com/mattnovitsch/M365/wiki/Getting-Azure-Log-Analytics-Keys))
-11. Once you save the connection Navigate back to the Flow screen and hit refresh. Select Azure Log Analytics then click Save.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L9.jpg)
-12. Now that the configurations are complete, you can click import. Do this for the remaining two Flows that you downloaded from [Prerequisites](https://github.com/mattnovitsch/M365/wiki/M365-Licensing-Overview---In-Progress/_edit#prerequisites-)
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L10.jpg)
-13. One all three flows are in the system, select one.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L11.jpg)
-14. Click Edit in the top middle part of the screen.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L12.jpg)
-15. Click HTTP then click Show Advanced Options.
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L13.jpg)
-16. Go down Tenant, Client ID, and Secret. (If you don't know this information please refer too [Register a New application](https://github.com/mattnovitsch/M365/wiki/Register-a-New-application)
-![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L14.jpg)
+2. Click on My Flows then Import. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L1.jpg)
+3. Click Upload. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L2.jpg)
+4. Navigate where you downloaded [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211009122143.zip),  [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211009122547.zip), and [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211009121621.zip). Select one of the files then click open. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L3.jpg)
+5. Once the Package has uploaded you will need the review process, this is required to correct the configurations of the package. Click the Action wrench to configure each area.<BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L4.jpg)
+6. In this example our first configuration item is the option to update or create as new, this is because my lab already has the package. This will be handy if I ever need to update it and repost for everyone to use. I'm going to create as new in this example and add the tag -demo on the resource name. Yours should be just create as new or it will probably not ask you at all. I'm clicking save to proceed.  <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L5.jpg)
+7. If you do not have a Azure Log Analytics connection then click create new. If you do have one, select your existing connection and click save.  <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L6.jpg)
+8. Skip steps 8 through 10 if you already have a connection. Click New Connection in the top of the new tab. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L7.jpg)
+9. Type Azure Log in the top right Search box and then select Azure Log Analytics Data Collector. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L8.jpg)
+10. Type in your Workspace ID and Workspace Key. (You can get your keys by following these steps: [Getting Azure Log Analytics Keys] <BR>(https://github.com/mattnovitsch/M365/wiki/Getting-Azure-Log-Analytics-Keys))
+11. Once you save the connection Navigate back to the Flow screen and hit refresh. Select Azure Log Analytics then click Save. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L9.jpg)
+12. Now that the configurations are complete, you can click import. Do this for the remaining two Flows that you downloaded from [Prerequisites](https://github.com/mattnovitsch/M365/wiki/M365-Licensing-Overview---In-Progress/_edit#prerequisites-) <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L10.jpg)
+13. One all three flows are in the system, select one.  <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L11.jpg)
+14. Click Edit in the top middle part of the screen. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L12.jpg)
+15. Click HTTP then click Show Advanced Options. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L13.jpg)
+16. Go down Tenant, Client ID, and Secret. (If you don't know this information please refer too [Register a New application](https://github.com/mattnovitsch/M365/wiki/Register-a-New-application). If you have the information fill it out <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L14.jpg)
+17. Save the flow and the click Test to run it. This will check if for errors and validate you connections is working. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L15.jpg)
+18. Select the radio button Manually then click Test. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L16.jpg)
+19. Click Run Flow to start the job.  <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L17.jpg)
+20. Click Done to review the run. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L18.jpg)
+21. Hopefully you will see "Your Flow ran successfully" at the top, if not scan the flow for any recheck marks to review. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L19.jpg)
+22. Repeat the steps for the other two flows. <br>
+23. Navigate back to your Azure Log Analytics Workspace. <br>
+24. On the settings part of the Left side menu, select Custom Logs. You should see assignplans_CL, AssignedLicense_CL, and LicenseData_CL. <br>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L19.jpg)
