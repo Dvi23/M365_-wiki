@@ -8,7 +8,7 @@ I’ve been working with Microsoft Defender for Endpoints for about a month with
 * ATP - Unhealthy Endpoints
 * ATP - High Risk Endpoints
 
-# Prerequisites
+## Prerequisites
 * PowerBI Desktop x64 or Power BI Report Server
 * [MDE Dashboard](https://github.com/mattnovitsch/M365/blob/main/MDEDashboard.pbit)
 * [Turn on Diagnostic Settings(optional)](https://github.com/mattnovitsch/M365/wiki/Turn-on-Azure-AD-logs) 
