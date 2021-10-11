@@ -82,4 +82,11 @@ This report is meant to give you a general overview of your licenses and breakdo
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L26.jpg)
 33. Click on Advance Editor and Paste in the download from AssignedLicense_CL in step 25. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L27.jpg)
-34.
+34. Repeat step 33 for assignplans and LicenseData.<BR>
+35. Click Close & Apply. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L28.jpg)
+36. Click "Sign in as different User" for the api.loganalytics.io sites and sign in with your organizational account. Click Connect to continue.
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L29.jpg)
+37. Pending any errors, you should start to see something like these two pages below.
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L30.jpg)<BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L31.jpg)
