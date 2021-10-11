@@ -8,7 +8,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 
 * Power Automate Premium License
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
-* [M365Dashboard.pbit](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
+* [M365Licenses.pbit](https://github.com/mattnovitsch/M365/blob/main/M365License/M365Licenses.pbit)
 * [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211011134926.zip)
 * [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211011135031.zip)
 * [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211011135001.zip)
@@ -64,5 +64,22 @@ This report is meant to give you a general overview of your licenses and breakdo
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L19.jpg)
 22. Repeat the steps for the other two flows. <br>
 23. Navigate back to your Azure Log Analytics Workspace. <br>
-24. On the settings part of the Left side menu, select Custom Logs. You should see assignplans_CL, AssignedLicense_CL, and LicenseData_CL. <br>
-![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L19.jpg)
+24. On the settings part of the Left side menu, select Custom Logs. You should see assignplans_CL, AssignedLicense_CL, and LicenseData_CL. If you do not see them there then it would be a good time to take a coffee break or lunch break. Check back in 15 minutes to an hour. <br>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L20.jpg)
+25. Select Logs on the left side menu, expand Custom Logs then double click on AssignedLicense_CL. Change the Time Range to last 7 days and click run.
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L21.jpg)
+26. If you get a results then lets export the query for Power BI. Select the Export button then Export to Power BI(M query).
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L22.jpg)
+27. Repeat steps 25 and 26 for assignplans_CL and LicenseData_CL.<BR>
+28. Open the [M365Licenses.pbit](https://github.com/mattnovitsch/M365/blob/main/M365License/M365Licenses.pbit). <BR>
+29. Click on Connect Anonymously for the docs.microsoft.com sites.<BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L23.jpg)
+30. Cancel the api.loganalytics.io sites. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L24.jpg)
+31. You will get some errors about the credentials provided, thats to be expected. Just close the refresh screen for now.
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L25.jpg)
+32. Right click on the Fields to the right and select Edit Query. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L26.jpg)
+33. Click on Advance Editor and Paste in the download from AssignedLicense_CL in step 25. <BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L27.jpg)
+34.
