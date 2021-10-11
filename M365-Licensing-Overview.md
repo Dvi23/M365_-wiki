@@ -48,5 +48,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 ![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L11.jpg)
 14. Click Edit in the top middle part of the screen.
 ![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L12.jpg)
-15. Click HTTP then click Advance
+15. Click HTTP then click Show Advanced Options.
 ![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L13.jpg)
+16. Go down Tenant, Client ID, and Secret. (If you don't know this information please refer too [Register a New application](https://github.com/mattnovitsch/M365/wiki/Register-a-New-application)
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L14.jpg)
