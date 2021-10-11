@@ -43,4 +43,10 @@ This report is meant to give you a general overview of your licenses and breakdo
 11. Once you save the connection Navigate back to the Flow screen and hit refresh. Select Azure Log Analytics then click Save.
 ![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L9.jpg)
 12. Now that the configurations are complete, you can click import. Do this for the remaining two Flows that you downloaded from [Prerequisites](https://github.com/mattnovitsch/M365/wiki/M365-Licensing-Overview---In-Progress/_edit#prerequisites-)
-13. 
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L10.jpg)
+13. One all three flows are in the system, select one.
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L11.jpg)
+14. Click Edit in the top middle part of the screen.
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L12.jpg)
+15. Click HTTP then click Advance
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L13.jpg)
