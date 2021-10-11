@@ -9,9 +9,9 @@ This report is meant to give you a general overview of your licenses and breakdo
 * Power Automate Premium License
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
 * [M365Dashboard.pbit](https://github.com/mattnovitsch/M365/blob/main/M365Dashboard.pbit)
-* [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211009122143.zip)
-* [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211009122547.zip)
-* [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211009121621.zip)
+* [PowerBI-AssignedLicense](https://github.com/mattnovitsch/M365/blob/main/PowerBI-AssignedLicense_20211011134926.zip)
+* [PowerBI-LicenseReport](https://github.com/mattnovitsch/M365/blob/main/PowerBI-LicenseReport_20211011135031.zip)
+* [PowerBI-assignedPlans](https://github.com/mattnovitsch/M365/blob/main/PowerBI-assignedPlans_20211011135001.zip)
 <BR>
 
 ## References:
@@ -40,3 +40,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 9. Type Azure Log in the top right Search box and then select Azure Log Analytics Data Collector.
 ![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L8.jpg)
 10. Type in your Workspace ID and Workspace Key. (You can get your keys by following these steps: [Getting Azure Log Analytics Keys](https://github.com/mattnovitsch/M365/wiki/Getting-Azure-Log-Analytics-Keys))
+11. Once you save the connection Navigate back to the Flow screen and hit refresh. Select Azure Log Analytics then click Save.
+![](https://github.com/mattnovitsch/M365/tree/main/M365License/M365L9.jpg)
+12. Now that the configurations are complete, you can click import. Do this for the remaining two Flows that you downloaded from [Prerequisites](https://github.com/mattnovitsch/M365/wiki/M365-Licensing-Overview---In-Progress/_edit#prerequisites-)
+13. 
