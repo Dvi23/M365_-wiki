@@ -22,7 +22,7 @@ This report is meant to give you a general overview of your licenses and breakdo
 * [Product names and service plan identifiers for licensing](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 * [Permissions and consent in the Microsoft identity platform - Permission types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent?WT.mc_id=Portal-Microsoft_AAD_RegisteredApps#permission-types)
 <BR>
-
+* [Product names and service plan identifiers for licensing](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-service-plan-reference)
 ## Steps: <BR>
 
 1. Navigate to [Power Automate](https://flow.microsoft.com)
