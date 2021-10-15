@@ -8,6 +8,14 @@ I’ve been working with Microsoft Defender for Endpoints for about a month with
 * ATP - Unhealthy Endpoints
 * ATP - High Risk Endpoints
 
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED1.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED2.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED3.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED4.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED5.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED6.jpg)<br>
+![](https://github.com/mattnovitsch/M365/blob/main/MDE/MDED7.jpg)<br>
+
 ## Prerequisites
 * PowerBI Desktop x64 or Power BI Report Server
 * [MDE Dashboard](https://github.com/mattnovitsch/M365/tree/main/MDE/MDEDashboard.pbit)
