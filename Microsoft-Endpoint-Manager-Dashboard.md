@@ -9,6 +9,12 @@ This will Power BI report has the following information in it:
 * Application Inventory
 * Endpoint Security
 
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard2.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard3.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard4.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/Dashboard6.jpg)
+
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
 * [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit)
