@@ -75,21 +75,19 @@ This report is meant to give you a general overview of your licenses and breakdo
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L22.jpg)
 27. Repeat steps 25 and 26 for assignplans_CL and LicenseData_CL.<BR>
 28. Open the [M365Licenses.pbit](https://github.com/mattnovitsch/M365/blob/main/M365License/M365Licenses.pbit). <BR>
-29. Click on Connect Anonymously for the docs.microsoft.com sites.<BR>
-![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L23.jpg)
-30. Cancel the api.loganalytics.io sites. <BR>
+29. Cancel the api.loganalytics.io sites. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L24.jpg)
-31. You will get some errors about the credentials provided, thats to be expected. Just close the refresh screen for now.
+30. You will get some errors about the credentials provided, that's to be expected. Just close the refresh screen for now.
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L25.jpg)
-32. Right click on the Fields to the right and select Edit Query. <BR>
+31. Right click on the Fields to the right and select Edit Query. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L26.jpg)
-33. Click on Advance Editor and Paste in the download from AssignedLicense_CL in step 25. <BR>
+32. Click on Advance Editor and Paste in the download from AssignedLicense_CL in step 25. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L27.jpg)
-34. Repeat step 33 for assignplans and LicenseData.<BR>
-35. Click Close & Apply. <BR>
+33. Repeat step 33 for assignplans and LicenseData.<BR>
+34. Click Close & Apply. <BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L28.jpg)
-36. Click "Sign in as different User" for the api.loganalytics.io sites and sign in with your organizational account. Click Connect to continue.
+35. Click "Sign in as different User" for the api.loganalytics.io sites and sign in with your organizational account. Click Connect to continue.
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L29.jpg)
-37. Pending any errors, you should start to see something like these two pages below.
+36. Pending any errors, you should start to see something like these two pages below.
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L30.jpg)<BR>
 ![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L31.jpg)
