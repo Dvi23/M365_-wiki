@@ -15,6 +15,7 @@ This will Power BI report has the following information in it:
 * [Update Compliance Enabled](https://github.com/mattnovitsch/M365/wiki/Enabling-Update-Compliance)
 * [How to retrieve your Intune Data Warehouse URL](https://github.com/mattnovitsch/M365/wiki/How-to-retrieve-your-Intune-Data-Warehouse-URL)
 * [Intune Deploy PowerShell Scripts with Reporting Capabilities](https://github.com/mattnovitsch/M365/wiki/Intune---Deploy-PowerShell-Scripts-with-Reporting-Capabilities)
+* Power BI Pro License (if you want to publish for others in your organization to see)
 
 ## Steps
 1. Open [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit)
