@@ -8,10 +8,10 @@ I had a request from one of my customers to remove old guest accounts that he ha
 1. Download [DeleteGuestAccounts.ps1](https://github.com/mattnovitsch/M365/blob/main/DeleteGuestAccounts.ps1).
 2. Open DeleteGuestAccounts.ps1 in PowerShell ISE from the machine you plan to run the script from.
 3. Edit line 3 to reflect the location of your download file. I had mine in a random folder on my C drive. <BR>
-![](https://github.com/mattnovitsch/M365/blob/main/DGA1.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/DeleteGuestAccounts/DGA1.jpg)
 4. Execute the entire script
 * Note: The script doesn't remove accounts by default, that part is commented out.
-![](https://github.com/mattnovitsch/M365/blob/main/DGA2.jpg)
+![](https://github.com/mattnovitsch/M365/blob/main/DeleteGuestAccounts/DGA2.jpg)
 5. Once you verify all the accounts are correct and you are fine with deleting them. Delete the # on line 12.
 6. Execute the script again to delete the accounts.
 
