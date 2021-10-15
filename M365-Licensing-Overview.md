@@ -3,6 +3,8 @@
 This report is meant to give you a general overview of your licenses and breakdowns of each user. This is uses the Graph APIs then stores the data into Azure Log Analytics. Cost for Azure Log Analytics will vary depending on your organizations size. This took me awhile since I last build the License Overview that required a global administrator to run the PowerShell scripts daily. I didn't like the fact that was a requirement and started looking into Graph. After many failed attempts and a support case to help me with some JSON issues I finally got it working.<BR>
 <BR> Please note I am not a licensing expert by any means. What I have found that in creating this report, Microsoft Licensing is really confusing to me so I have given it my best effort. An example of this is, if you turn off Microsoft Insider Risk Management it shows up in the report as Exchange as part of that component so you will see Exchange enable and disabled because of piece of Exchange(Microsoft Insider Risk Management module) is disabled.
 
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L30.jpg)<BR>
+![](https://github.com/mattnovitsch/M365/blob/main/M365License/M365L31.jpg)
 
 ## Prerequisites: <br>
 
