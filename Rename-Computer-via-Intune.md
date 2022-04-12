@@ -1,5 +1,5 @@
 # Summary
-This script can be used to rename your computer with adding the device serial number in the name. I have had this request come up with several customers looking to do this during the enrollment process in Intune and/or AutoPilot. As the Intune does support serial number, autopilot doesn't support variables such as %SERIAL% and only support prefixes for the computer name. The plan would be to get the device to join with a temporary name then have it rename once it has fully enrolled with Intune.
+This script can be used to rename your computer with adding the device serial number in the name. I have had this request come up with several customers looking to do this during the enrollment process in Intune and/or AutoPilot. As the Intune does support serial number, autopilot doesn't support variables such as %SERIAL% and only support prefixes for the computer name. The plan would be to get the device to join with a temporary name then have it rename once it has fully enrolled with Intune. The renamecomputer.ps1 script will rename the device to Lenovo<serialnumber>. Please feel free to edit the script to whatever 6-character prefix you want.
 
 ## References
 [Accounts Configuration Service Provider](https://docs.microsoft.com/en-us/windows/client-management/mdm/accounts-csp)<BR>
