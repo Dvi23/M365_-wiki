@@ -5,6 +5,9 @@ This script can be used to rename your computer with adding the device serial nu
 [Accounts Configuration Service Provider](https://docs.microsoft.com/en-us/windows/client-management/mdm/accounts-csp)<BR>
 [Deploy hybrid Azure AD-joined devices by using Intune and Windows Autopilot](https://docs.microsoft.com/en-us/mem/autopilot/windows-autopilot-hybrid)
 
+# Prerequisite
+[RenameComputer.ps1](https://github.com/mattnovitsch/M365/blob/main/RenameComputer/RenameComputer.ps1)
+
 # Steps
 1. Navigate to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)
 2. Navigate to Devices > Windows > PowerShell Scripts then click the +Add button <br>
