@@ -26,3 +26,7 @@ Active Directory limits to 15-characters so please make sure your prefix and ser
 7. Review to make sure you have the correct script and group assigned. Click Add once you have verified everything <br>
 ![RenameComputer6](https://user-images.githubusercontent.com/61195587/162961730-10896e12-6147-4ac9-aa8f-86f4ab23a1fe.jpg)
 
+## Additional Example using OU to name your endpoints
+I've also had the ask if we can do the rename depending on the OU where the computer object is located. You can you have to load RSAT tools on the device and import the Active Directory module on the device. I have a sample of the script 
+[here.](https://github.com/mattnovitsch/M365/blob/main/RenameComputer/RenameComputerViaOU.ps1)
+
