@@ -4,6 +4,7 @@ I was recently asked; can we move our remote users from local accounts to Azure 
 ## Prerequisite
 * OneDrive Licenses
 * Intune Licenses and deployed to the machine
+* Machine already in Hybrid or Azure AD Joined state.
 
 ## Admin Steps
 1. Navigate to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)
