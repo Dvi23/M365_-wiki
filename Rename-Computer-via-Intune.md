@@ -1,17 +1,17 @@
 # Summary
 This script can be used to rename your computer with adding the device serial number in the name. I have had this request come up with several customers looking to do this during the enrollment process in Intune and/or AutoPilot. As the Intune does support serial number, autopilot doesn't support variables such as %SERIAL% and only support prefixes for the computer name. The plan would be to get the device to join with a temporary name then have it rename once it has fully enrolled with Intune. The renamecomputer.ps1 script will rename the device to Lenovo<serialnumber>. Please feel free to edit the script to whatever 6-character prefix you want. I also added a restart-computer command in there that is commented out, if you want to force the restart right after the change you can but I would just let it wait until the user does it on their own.
 
-# Note
+## Note
 Active Directory limits to 15-characters so please make sure your prefix and serial number don't exceed that or it will fail. It's worth to note that if you don't have access to the domain controller for hybrid join this could cause domain trust issues with those devices.
 
 ## References
 [Accounts Configuration Service Provider](https://docs.microsoft.com/en-us/windows/client-management/mdm/accounts-csp)<BR>
 [Deploy hybrid Azure AD-joined devices by using Intune and Windows Autopilot](https://docs.microsoft.com/en-us/mem/autopilot/windows-autopilot-hybrid)
 
-# Prerequisite
+## Prerequisite
 [RenameComputer.ps1](https://github.com/mattnovitsch/M365/blob/main/RenameComputer/RenameComputer.ps1)
 
-# Steps
+## Steps
 1. Navigate to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)
 2. Navigate to Devices > Windows > PowerShell Scripts then click the +Add button <br>
 ![RenameComputer1](https://user-images.githubusercontent.com/61195587/162959130-8f7bc63b-f91b-43d6-aa65-cb93876cd2fd.jpg)
