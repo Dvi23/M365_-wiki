@@ -10,7 +10,7 @@ I had a customer ask about configuring Teams to be deployed minimized. This can 
 ## Steps:
 1. Navigate to [Microsoft Endpoint Manager](http://endpoint.microsoft.com)
 2. Navigate to Reports > Endpoint Analytics
-* Note: You can do this via scripts also but since we are trying to force this change in an organization having it run more than once is best handled in Endpoint Analytics
+* Note: You can do this via scripts also but since we are trying to force this change in an organization having it run more than once is best handled in Endpoint Analytics<BR>
 ![image](https://user-images.githubusercontent.com/61195587/166960098-db8e95fa-3a83-47ce-b7b5-13a35afc4955.png)
 3. Click on Proactive Remediations and then Create script package <BR>
 ![image](https://user-images.githubusercontent.com/61195587/166960369-4b4949d4-3f58-42dc-90c2-c6b635a8bd27.png)
