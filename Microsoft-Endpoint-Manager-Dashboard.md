@@ -1,5 +1,5 @@
 # Update 9/7/2021
-I found out the column I was user for what I thought was primary user was in fact enrollment user. I had to add another table called userDeviceAssociations and redo some of the relationships on the tables but I got it corrected now. Please download the new [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit) file to get the corrections.
+I found out the column I was user for what I thought was primary user was in fact enrollment user. I had to add another table called userDeviceAssociations and redo some of the relationships on the tables but I got it corrected now. Please download the new [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEM/MEMDashboard.pbit) file to get the corrections.
 
 # Summary
 This will Power BI report has the following information in it:
@@ -17,7 +17,7 @@ This will Power BI report has the following information in it:
 
 ## Prerequisites
 * [PowerBI Desktop x64](https://www.microsoft.com/en-us/download/details.aspx?id=58494) or [Power BI Report Server](https://powerbi.microsoft.com/en-us/report-server/)
-* [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEMDashboard.pbit)
+* [MEM Dashboard](https://github.com/mattnovitsch/M365/blob/main/MEM/MEMDashboard.pbit)
 * [Update Compliance Enabled](https://github.com/mattnovitsch/M365/wiki/Enabling-Update-Compliance)
 * [How to retrieve your Intune Data Warehouse URL](https://github.com/mattnovitsch/M365/wiki/How-to-retrieve-your-Intune-Data-Warehouse-URL)
 * [Intune Deploy PowerShell Scripts with Reporting Capabilities](https://github.com/mattnovitsch/M365/wiki/Intune---Deploy-PowerShell-Scripts-with-Reporting-Capabilities)
