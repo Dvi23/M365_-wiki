@@ -1,0 +1,19 @@
+Looking to deploy Microsoft Defender for Identity? Follow these quick steps to get deployed. If you still have trouble, put in a request for assistance at [Fast Track](http://www.microsoft.com/fasttrack). Fast Track can walk you through the process.
+
+Setup instructions for Microsoft Defender for Identity
+
+1. Run sizing tool for 24 hours on a machine with a user that has access to all the domain controllers and/or ADFS servers: [[Plan capacity for deployment - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning#use-the-sizing-tool)](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning#use-the-sizing-tool)
+2. Configure Audit Policies via GPO for all DCs and ADFS servers. You can use the Domain Controller Default Domain Policy or Create a new one: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#configure-audit-policies)
+3. Configure Object Auditing: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#configure-object-auditing)
+4. Configure ADFS Auditing: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#enable-auditing-on-an-adfs-object)
+5. Configure auding on Container Configuration: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#enable-auditing-on-the-configuration-container)
+6. Setup an account for Directory Services in MDI :[Directory Service account recommendations - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/directory-service-accounts)
+7. If you plan on using Managed Action Account to resolve situation in your environment: [Manage action accounts - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/manage-action-accounts)
+8. Configure any proxy settings: [Configure endpoint proxy and Internet connectivity settings - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-proxy)
+9. Make sure firewall/proxies allow access to your tenant: [Prerequisites - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/prerequisites#ports)
+10. Run the MDI Readiness script to confirm all setting are applied correctly: [Microsoft-Defender-for-Identity/Test-MdiReadiness at main · microsoft/Microsoft-Defender-for-Identity (github.com)](https://github.com/microsoft/Microsoft-Defender-for-Identity/tree/main/Test-MdiReadiness)
+11. Install Sensor: [Install the sensor - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/install-sensor)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you have NPCAP from another installation like Wireshark follow these instructions: [Microsoft Defender for Identity frequently asked questions - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/technical-faq#how-do-i-download-and-install-or-upgrade-the-npcap-driver)
+
+NOTE: If you go to settings and try to deploy the sensor and get an error when trying to provision your instance. Go into Azure Active Directory and find the groups below. If they are present, make sure there are no users assigned to them. If there are then you will need to make sure you keep note of them. Delete the groups and then try to provision your instance again.
