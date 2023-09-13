@@ -2,7 +2,7 @@ Looking to deploy Microsoft Defender for Identity? Follow these quick steps to g
 
 Setup instructions for Microsoft Defender for Identity
 
-1. Run sizing tool for 24 hours on a machine with a user that has access to all the domain controllers and/or ADFS servers: [[Plan capacity for deployment - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning#use-the-sizing-tool)](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning#use-the-sizing-tool)
+1. Run sizing tool for 24 hours on a machine with a user that has access to all the domain controllers and/or ADFS servers: [Plan capacity for deployment - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning#use-the-sizing-tool)
 2. Configure Audit Policies via GPO for all DCs and ADFS servers. You can use the Domain Controller Default Domain Policy or Create a new one: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#configure-audit-policies)
 3. Configure Object Auditing: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#configure-object-auditing)
 4. Configure ADFS Auditing: [Configure Windows Event collection - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection#enable-auditing-on-an-adfs-object)
