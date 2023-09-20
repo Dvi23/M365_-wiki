@@ -16,4 +16,6 @@ Setup instructions for Microsoft Defender for Identity
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you have NPCAP from another installation like Wireshark follow these instructions: [Microsoft Defender for Identity frequently asked questions - Microsoft Defender for Identity | Microsoft Learn](https://learn.microsoft.com/en-us/defender-for-identity/technical-faq#how-do-i-download-and-install-or-upgrade-the-npcap-driver)
 
-NOTE: If you go to settings and try to deploy the sensor and get an error when trying to provision your instance. Go into Azure Active Directory and find the groups below. If they are present, make sure there are no users assigned to them. If there are then you will need to make sure you keep note of them. Delete the groups and then try to provision your instance again.
+**NOTE**: If you go to settings and try to deploy the sensor and get an error when trying to provision your instance. Go into Azure Active Directory and find the groups below. If they are present, make sure there are no users assigned to them. If there are then you will need to make sure you keep note of them. Delete the groups and then try to provision your instance again.
+
+**Note for VMWare Users**: If you have a Defender for Identity sensor on VMware virtual machines, you might receive the health alert Some network traffic is not being analyzed. [VMware virtual machine sensor issue](https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues#vmware-virtual-machine-sensor-issue)
