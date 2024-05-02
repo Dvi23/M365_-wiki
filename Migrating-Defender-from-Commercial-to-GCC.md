@@ -31,7 +31,7 @@ Option 1: Using Intune to Migrate agents into GCC Tenant.
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/9bab3b9a-bb3a-4855-9580-108937519ba2)
   
 16.	Copy the entire contents of the file (ctrl+a then ctrl+c) <BR>
-![image](https://github.com/mattnovitsch/M365/assets/61195587/e608ba5f-2ada-40cb-8b39-be35c80bbef4)
+![image](https://github.com/mattnovitsch/M365/assets/61195587/8e021c9b-b2de-49c5-9541-3e6498e97110)
   
 17.	Navigate back to Intune Admin Center tab.
 18.	Paste the script into the Onboarding section
