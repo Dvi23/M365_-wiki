@@ -1,4 +1,5 @@
-Migrating from Microsoft Defender for endpoint client from Commercial to GCC tenant. This is assuming you have already worked with your CSAM and the Microsoft Transition team and have already onboarded one device to the new GCC tenant first. This is required as backend tenant information needs to be configured.
+Migrating from Microsoft Defender for endpoint client from Commercial to GCC tenant. This is assuming you have already worked with your CSAM and the Microsoft Transition team and have already onboarded one device to the new GCC tenant first. This is required as backend tenant information needs to be configured. 
+
 
 Option 1: Using Intune to Migrate agents into GCC Tenant.
 1.	Navigate to Intune Admin Center (https://intune.microsoft.com/ )
@@ -48,4 +49,4 @@ Option 1: Using Intune to Migrate agents into GCC Tenant.
 24.	Review the settings then click Save
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/c22a6706-4fc5-487c-b324-d6e0d9604435)
  
-Note: A reboot is required for these changes to take effect. Once the system is rebooted, it should appear in the GCC tenant within 1-2 hours. If you run into problems, please reach out to your CSAM or FTA/FM for assistance.
+Note: A reboot is required for these changes to take effect. Once the system is rebooted, it should appear in the GCC tenant within 1-2 hours. If you run into problems, please reach out to your CSAM or FTA/FM for assistance. If you don't have a CSAM or FTA/FM you can put in a request for assistance at [Fast Track](http://www.microsoft.com/fasttrack). Fast Track can walk you through the process.
