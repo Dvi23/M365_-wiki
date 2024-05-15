@@ -27,3 +27,7 @@ Navigate to https://security.microsoft.com/
 `mdatp health --field org_id`
  
 11.	You should see your OrgID returned, if you do then you are complete. It should show up in the console within 15 minutes to a couple of hours(mine were both in 15 minutes).
+
+Official references and sources:
+* [Deploy Microsoft Defender for Endpoint on Linux manually](https://learn.microsoft.com/en-us/defender-endpoint/linux-install-manually#rhel-and-variants-centos-fedora-oracle-linux-amazon-linux-2-rocky-and-alma)<BR>
+* [Troubleshoot installation issues for Microsoft Defender for Endpoint on Linux](https://learn.microsoft.com/en-us/defender-endpoint/linux-support-install)
