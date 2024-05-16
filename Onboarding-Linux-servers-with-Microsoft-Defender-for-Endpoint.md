@@ -41,6 +41,7 @@ If you need to turn off or uninstall MDE from the device:
 ## Official references and sources:
 * [Deploy Microsoft Defender for Endpoint on Linux manually](https://learn.microsoft.com/en-us/defender-endpoint/linux-install-manually#rhel-and-variants-centos-fedora-oracle-linux-amazon-linux-2-rocky-and-alma)<BR>
 * [Troubleshoot installation issues for Microsoft Defender for Endpoint on Linux](https://learn.microsoft.com/en-us/defender-endpoint/linux-support-install)
+* [Microsoft Defender for Endpoint on Linux - Support Versions of Linux](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux#system-requirements)
 
 ## Next Steps:
 Now that we have the Linux device onboarded with MDE, we need to push policies to them. Please see the next section: [How to push policy to Linux devices from Intune](https://github.com/mattnovitsch/M365/wiki/How-to-push-policy-to-Linux-devices-from-Intune)
