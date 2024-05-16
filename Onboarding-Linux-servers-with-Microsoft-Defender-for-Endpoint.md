@@ -1,3 +1,7 @@
+## Summary:
+This will walk you through the process of onboarding Microsoft Defender for Endpoint on Redhat Linux devices.
+
+## Deployment Steps:
 1.	Now we need to download the onboarding script to your workstation from Defender XDR: <BR>
 Navigate to https://security.microsoft.com/ 
 
@@ -28,6 +32,12 @@ Navigate to https://security.microsoft.com/
  
 11.	You should see your OrgID returned, if you do then you are complete. It should show up in the console within 15 minutes to a couple of hours(mine were both in 15 minutes).
 
-Official references and sources:
+## Troubleshooting Steps:
+If you need to turn off or uninstall MDE from the device:
+* For Uninstall: `sudo yum remove mdatp`
+* For stopping the service: `sudo service mdatp stop`
+* For restarting the service:`sudo service mdatp restart`
+
+## Official references and sources:
 * [Deploy Microsoft Defender for Endpoint on Linux manually](https://learn.microsoft.com/en-us/defender-endpoint/linux-install-manually#rhel-and-variants-centos-fedora-oracle-linux-amazon-linux-2-rocky-and-alma)<BR>
 * [Troubleshoot installation issues for Microsoft Defender for Endpoint on Linux](https://learn.microsoft.com/en-us/defender-endpoint/linux-support-install)
