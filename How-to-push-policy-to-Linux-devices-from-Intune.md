@@ -38,5 +38,16 @@ Now that we have onboarded devices with Microsoft Defender for Endpoint, we need
 15.Give your policy a name
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/e9b1852b-f59d-48a6-b5a6-91f06e08485c)
 
-16. The configuration setting is going to depend on what your corporate policies are. These are the settings I turned on in my lab.
+16. The configuration setting is going to depend on what your corporate policies are. These are the settings I turned on in my lab. Select Next to go to Assignments.
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/ab0caadb-1002-4d68-9012-e08dff21d31b)
+
+17. On the assignments, we need the group(s) we created before. You can enter as many groups as you want here.
+![image](https://github.com/mattnovitsch/M365/assets/61195587/ecdaee14-8b89-4811-8ce9-b09b7df5f4ce)
+
+18. Review and create your policy.
+* Note: Depending on your environment you may have multiple groups and policies. 
+![image](https://github.com/mattnovitsch/M365/assets/61195587/12a53773-ce4d-48cf-9e35-4cc0d21cb1d5)
+
+## Support
+If you need assistance with this process, Microsoft FastTrack can assist you. Please reach out to your FastTrack Architect, FastTrack Manager, Customer Success Account Manager, or log a request [Request for Assistances](https://learn.microsoft.com/en-us/microsoft-365/enterprise/request-fasttrack-assistance-microsoft-365?view=o365-worldwide).
+
