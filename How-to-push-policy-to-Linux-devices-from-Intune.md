@@ -21,10 +21,22 @@ Now that we have onboarded devices with Microsoft Defender for Endpoint, we need
 * Note: If you want to add specific set of devices then name appropriately
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/e1e9e91f-f35d-4c66-b079-952499e74348)
 
-9. 
-6. Navigate to Endpoints > Endpoint Security Policies > Linux Policies and select Create New Policy 
+9. The first property is going to be managementType it needs to be set to MicrosoftSense.
+10. The second property is going to be deviceOSType, this will need to be set to Linux.
+11. Save this and repeat as needed.
+* Note: If you want to add additional settings like DisplayName to break down the group into targeted servers we would repeat steps 8-11 as needed.
+![image](https://github.com/mattnovitsch/M365/assets/61195587/8e882d22-22bb-496f-ab77-55f02618236a)
+
+12. Go to back to [Defender XDR](https://security.microsoft.com)
+13. Navigate to Endpoints > Endpoint Security Policies > Linux Policies and select Create New Policy 
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/e9937dac-21ff-44b1-abae-fe1849ae03e8)
 
-7. Select Linux as the Platform and Select Microsoft Defender Antivirus as the Template
+14. Select Linux as the Platform and Select Microsoft Defender Antivirus as the Template
 * Note: If you need separate exclusions for different server groups, I would recommend creating exclusions and deploy to specific groups to not blank exclude processes.
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/7d631364-dc72-44f8-9387-5675c8339c7a)
+
+15.Give your policy a name
+![image](https://github.com/mattnovitsch/M365/assets/61195587/e9b1852b-f59d-48a6-b5a6-91f06e08485c)
+
+16. The configuration setting is going to depend on what your corporate policies are. These are the settings I turned on in my lab.
+![image](https://github.com/mattnovitsch/M365/assets/61195587/ab0caadb-1002-4d68-9012-e08dff21d31b)
