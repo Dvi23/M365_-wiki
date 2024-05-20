@@ -18,19 +18,24 @@ Navigate to https://security.microsoft.com/
 •	It should prompt you for your password. <BR>
 ![image](https://github.com/mattnovitsch/M365/assets/61195587/6411db44-339e-460a-896d-c39c9c627e1b)
 
-7.	Check and/or Install Python. <BR>
+7. Install yum-utils if it isn't installed yet:
+`sudo yum install yum-utils`
+`sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/rhel/9/prod.repo`
+8. Install the Microsoft GPG public key:
+`sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc`
+9.	Check and/or Install Python. <BR>
 `python --version`<BR>
 `sudo dnf install python3`
-7.	Install MDE<BR>
+10.	Install MDE<BR>
 `sudo yum install mdatp`
-8.	Change directory to the location where you placed the onboarding package.<BR>
+11.	Change directory to the location where you placed the onboarding package.<BR>
 `cd Desktop`
-9.	Run the python script to create the onboarding package.<BR>
+12.	Run the python script to create the onboarding package.<BR>
 `sudo python MicrosoftDefenderATPOnboardingLinuxServer.py`
-10.	Check the MDE client is pointing to your tenant: <BR>
+13.	Check the MDE client is pointing to your tenant: <BR>
 `mdatp health --field org_id`
  
-11.	You should see your OrgID returned, if you do then you are complete. It should show up in the console within 15 minutes to a couple of hours(mine were both in 15 minutes).
+14.	You should see your OrgID returned, if you do then you are complete. It should show up in the console within 15 minutes to a couple of hours(mine were both in 15 minutes).
 
 ## Troubleshooting Steps:
 If you need to turn off or uninstall MDE from the device:
