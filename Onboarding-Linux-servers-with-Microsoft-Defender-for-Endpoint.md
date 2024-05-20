@@ -46,5 +46,5 @@ If you need to turn off or uninstall MDE from the device:
 ## Next Steps:
 Now that we have the Linux device onboarded with MDE, we need to push policies to them. Please see the next section: [How to push policy to Linux devices from Intune](https://github.com/mattnovitsch/M365/wiki/How-to-push-policy-to-Linux-devices-from-Intune)
 
-Official References:
+## Official References:
 * [Supported commands](https://learn.microsoft.com/en-us/defender-endpoint/linux-resources#global-options)
