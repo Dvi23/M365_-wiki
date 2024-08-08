@@ -2,7 +2,7 @@
 Even having a geo-fence in your environment is not enough anymore. Attackers are using Anonymous Proxies to jump the geo-fence and attack environments. To help prevent that, you can block those proxies using Microsoft Defender for Cloud Apps.
 
 ## Perquisites
-You must have a Conditional Access Policy Application Control deployed.
+You must have a [Conditional Access Application Control](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Conditional-Access-Application-Control) policy deployed.
 
 ## Steps to enable the block of the proxies.
 
