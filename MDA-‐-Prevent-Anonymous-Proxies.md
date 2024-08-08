@@ -9,7 +9,8 @@ You must have a [Conditional Access Application Control](https://github.com/matt
 1. Navigate to [Microsoft Defender XDR](https://security.microsoft.com).
 2. Navigate to Cloud Apps > Policies > Policy Management
 3. Select Create Policy > Access Policy
-![image](https://github.com/user-attachments/assets/7a52369e-bd31-4947-aaa2-7dd256aeb4f8)
+![f4xur1ha](https://github.com/user-attachments/assets/db945793-2ccc-4269-a02e-c55482c4e8f8)
+
 <BR>
 4. Enter the policy name, for example "Prevent Anonymous Proxies" <BR>
 5. Under Activities matching all of the following, I would suggest you delete device and App <BR>
