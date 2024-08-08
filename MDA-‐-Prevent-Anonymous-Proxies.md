@@ -16,6 +16,7 @@ You must have a [Conditional Access Application Control](https://github.com/matt
 6. Add IP Address > Tag > equals > Anonymous Proxy <BR>
 7. Under Actions select Block <BR>
 * Note: Feel free to add a custom message to this block <BR>
+8. I would strongly recommend turning off Alerts for this policy so you are not spammed with alerts that you would just have to close. You can do reporting data in Advance Hunting if you want to see the data.
 
 ![image](https://github.com/user-attachments/assets/e7b869e9-8baf-4136-aa74-5c3150e15585)
 
