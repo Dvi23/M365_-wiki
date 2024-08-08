@@ -19,5 +19,8 @@ In order to apply session or access policies in Defender for Cloud Apps you need
 8. Navigate to Settings > Cloud Apps > Connected Apps > Conditional Access App Control Apps. The applications will start to appear as you start access them from the accounts that you are sending through that conditional access policy. The more users will get your more applications faster but then you have a higher risk of applying policies prematurely. I would recommend you IT staff first so you can apply policies to just that group and test accordingly before expanding the test users.
 ![image](https://github.com/user-attachments/assets/1cd026b4-08c6-4d3f-afa3-7f2f8ec47a19)
 
+## Next Steps
+* [MDA ‐ Prevent Anonymous Proxies](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Prevent-Anonymous-Proxies)
+
 ## References
 * https://learn.microsoft.com/en-us/defender-cloud-apps/conditional-access-app-control-how-to-overview
