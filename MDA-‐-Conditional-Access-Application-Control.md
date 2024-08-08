@@ -22,6 +22,7 @@ In order to apply session or access policies in Defender for Cloud Apps you need
 
 ## Next Steps
 * [MDA ‐ Prevent Anonymous Proxies](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Prevent-Anonymous-Proxies)
-
+* [MDA - Block-Cloud-Applications-for-users-groups](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Block-Cloud-Applications-for-users-groups)
+* [MDA ‐ Block cut copy paste print](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Block-cut-copy-paste-print)
 ## References
 * https://learn.microsoft.com/en-us/defender-cloud-apps/conditional-access-app-control-how-to-overview
