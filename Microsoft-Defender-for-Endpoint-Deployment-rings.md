@@ -82,8 +82,9 @@ Microsoft has documented examples of the plist file [here.](https://learn.micros
 
 ## Validation
 
-Now we need to validate all the endpoints are working as configured and in the correct rings. We could go to each device, but it's much quicker to do it from Advance Hunting query.
+Now we need to validate all the endpoints are working as configured and in the correct rings. We could go to each device, but it's much quicker to do it from Advance Hunting query. As you can see from the image below the query captures Active devices, last time they were updated, what version everything is, and their assigned rings. You can get a copy of the KQL from [here.](https://github.com/mattnovitsch/M365/blob/main/KQL/MDE/DeviceInventory.txt)
 
+![image](https://github.com/user-attachments/assets/d9020a6e-fa23-46ce-8304-a190fc0873c8)
 
 
 ## References
