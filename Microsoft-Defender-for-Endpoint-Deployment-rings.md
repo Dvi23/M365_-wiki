@@ -35,7 +35,7 @@ Once you figured out what channels you are going to use then we have to deploy t
 
 ***
 
-* Intune - I would strongly encourage using the Defender Update Controls under Endpoint Security > Antivirus. This will allow you to create Entra Groups that you can please user/devices in the groups for each defined ring. 
+* Intune - I would strongly encourage using the Defender Update Controls under Endpoint Security > Antivirus. This will allow you to create Entra Groups that you can place user/devices in the groups for each defined ring. 
 
 ![image](https://github.com/user-attachments/assets/af30da04-aee4-4737-ae0e-b0e450347377)
 
