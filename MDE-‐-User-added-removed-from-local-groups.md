@@ -68,3 +68,6 @@ DeviceEvents <BR>
 
 ## Conclusion
 This should cover most basis for finding when an account was either created on an endpoint from a newly created local account, your on-prem domain, your Entra environment, and/or a local account that was logged into.
+
+## Reference
+KQL can be downloaded from here: [MDE-FindAccountsAddedtoGroups](https://github.com/mattnovitsch/M365/blob/main/KQL/MDE/MDE-FindAccountsAddedtoGroups)
