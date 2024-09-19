@@ -65,7 +65,7 @@ You will need to do this for each ring you plan to deploy.
 
 ## Linux Deployment
 
-This one is probably the easiest. Microsoft has a [Repository](https://packages.microsoft.com/) for all its updates and versions of Linux we support. When you point to the repository, you can select the folder you want to download and configure per Linux Device.
+This one is probably the easiest. Microsoft has a [Repository](https://packages.microsoft.com/) for all its updates and versions of Linux we support. When you point to the repository, you can select the folder you want to download and configure per Linux Device. You can configure cron jobs and set timers accordingly per linux device. For information on setting up the cron jobs please see - [Schedule an update of the Microsoft Defender for Endpoint (Linux)](https://learn.microsoft.com/en-us/defender-endpoint/linux-update-mde-linux#for-those-who-use-ansible-chef-or-puppet)
 
 ![image](https://github.com/user-attachments/assets/825ace94-3ed6-4dc8-940d-3afe3b4c50f2)
 
