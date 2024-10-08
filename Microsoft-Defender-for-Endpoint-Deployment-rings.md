@@ -69,6 +69,11 @@ This one is probably the easiest. Microsoft has a [Repository](https://packages.
 
 ![image](https://github.com/user-attachments/assets/825ace94-3ed6-4dc8-940d-3afe3b4c50f2)
 
+This is probably the closest I could come to ring mapping for Linux:
+* Insider_fast = Channel (UAT)
+* Insider_slow = Channel (DEV)
+* Prod = Current Channel (Broad)
+
 ## MacOS Deployment
 
 For MacOS we need to configure the plist for each group. This can be done via Intune, JAMF, or whatever tool you are using to push the configuration.
