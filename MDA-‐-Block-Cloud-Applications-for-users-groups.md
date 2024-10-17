@@ -3,6 +3,7 @@ Blocking cloud applications for users and/or groups. This is something organizat
 
 ## Prerequisites
 * [Conditional Access Application Control](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90-Conditional-Access-Application-Control)
+* [Import Entra Groups into Cloud Apps](https://github.com/mattnovitsch/M365/wiki/MDA-%E2%80%90Import-Entra-Groups-into-Cloud-Apps)
 
 ## Steps to block cloud applications
 1. Navigate to [Defender XDR](https://security.microsoft.com)
