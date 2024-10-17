@@ -9,7 +9,8 @@ Blocking cloud applications for users and/or groups. This is something organizat
 2. Navigate to Cloud Apps > Policies > Policy Management > Create Policy > Access Policy
 ![g04d4mng](https://github.com/user-attachments/assets/3c20e9d0-e75e-4f67-9d29-e7bd7007d4ec)
 3. Give your policy a name for example "Block Access to app for users/groups"
-4. Delete Device under "Activities matching all of the following" and add User > Name or From Group > equals > "The user or group you want to block"
+4. Delete Device under "Activities matching all of the following" and add User > Name or From Group > equals > "The user or group you want to block" <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note: Alternatively: You can block this for everyone except for a Group of users. This would be like blocking Netflix for everyone except for Netflix_Allow_Group.
 5. Under Actions select Block.
 * Note: You can add a custom message if you like.
 6. I would strongly recommend turning off Alerts for this policy so you are not spammed with alerts that you would just have to close. You can do reporting data in Advance Hunting if you want to see the data.
