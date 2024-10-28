@@ -31,9 +31,39 @@ Clicking the +Add Custom link in the top right will allow you add these rules. L
 
 ![image](https://github.com/user-attachments/assets/a77f6802-9712-4c84-8869-e36c899ef5b5)
 
-Let's block a folder that could have executables next. In this example, I have a folder on the root of my C drive called Block. Click +Add Custom again and change the Rule Action to Deny and the Rule Type to Path.
+Let's block a folder that could have executables next. In this example, I have a folder on the root of my C drive called Block. Click +Add Custom again and change the Rule Action to Deny and the Rule Type to Path. Browse to the location and select the folder.
 
 ![image](https://github.com/user-attachments/assets/224edc3d-cd2e-4048-b8a0-e1a32d208f4a)
+
+Keep adding all the rules for files or folder you want to block.
+
+![image](https://github.com/user-attachments/assets/3b8fe940-3d97-4fbb-8ff3-cc9efa6f9054)
+
+The policy should create in a minute or so and give you the output location.
+
+![image](https://github.com/user-attachments/assets/c6c0549a-6255-4af7-bb82-b84b89826f48)
+
+To test this on your device, copy the .cip file and copy it to C:\Windows\System32\CodeIntegrity\CiPolicies\Active on your test device, restart the device for the changes to take effect.
+
+![image](https://github.com/user-attachments/assets/b4986c3e-ac56-4f09-9302-794cdc928981)
+
+Now we need to test this out. Place an executable in C:\Block and try to open it. You should get the following.
+
+![image](https://github.com/user-attachments/assets/a366b4ba-198f-4cff-84ba-0b226289ab7c)
+
+You should see something very similar when you try to run the Java JRE version.
+
+![image](https://github.com/user-attachments/assets/628d8505-8fc9-4b14-a331-8813418e6c9f)
+
+Things to watch out for, if you want to block Notepad.exe for example, then you need to make sure you grab the correct one. There are currently two version on systems if they are pulling the latest from Windows Store. 
+
+New location: C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2409.9.0_x64__8wekyb3d8bbwe\Notepad\
+
+Old location: C:\Windows\Notepad.exe
+
+With the rule I have below it will block the old location but not the new location.
+
+![image](https://github.com/user-attachments/assets/39981710-2ba2-4cce-b317-245bcb7fafe9)
 
 
 ## References:
