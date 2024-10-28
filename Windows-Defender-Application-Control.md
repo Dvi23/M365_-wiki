@@ -65,6 +65,14 @@ With the rule I have below it will block the old location but not the new locati
 
 ![image](https://github.com/user-attachments/assets/39981710-2ba2-4cce-b317-245bcb7fafe9)
 
+When you are ready to push to more than one device you can send the policy out via Intune. Navigate to Endpoint Security > App Control for Business. Create a new policy, when you get to the configuration settings import the xml file you created.
+
+![image](https://github.com/user-attachments/assets/ff6ba2df-1a54-45ee-8d21-56bcd4dac0d8)
+
+Deploy the policy to your target group.
+
+Good luck with your Application Control Policy and testing.
+
 
 ## References:
 * [Understand App Control for Business policy rules and file rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/select-types-of-rules-to-create)
