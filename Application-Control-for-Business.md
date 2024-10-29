@@ -1,5 +1,5 @@
 # Summary
-I have some customer asking about blocking specific applications using AppLocker and how to manage it. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy. 
+I have some customer asking about blocking specific applications and how to manage them. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy. 
 
 ## Prerequisites
 * [App Control Policy Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
