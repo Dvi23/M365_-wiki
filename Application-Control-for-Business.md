@@ -1,5 +1,5 @@
 # Summary
-I have some customer asking about blocking specific applications using AppLocker and how to manage it. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy. The other call out here is that Applocker evolved to Windows Defender for Applicaiton Control and again to Application Control for Business.
+I have some customer asking about blocking specific applications using AppLocker and how to manage it. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy. 
 
 ## Prerequisites
 * [App Control Policy Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
