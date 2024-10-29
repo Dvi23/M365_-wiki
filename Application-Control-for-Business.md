@@ -1,14 +1,14 @@
 # Summary
-I have some customer asking about blocking specific applications using AppLocker and how to manage it. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy.
+I have some customer asking about blocking specific applications using AppLocker and how to manage it. I have done some digging and found that the software engineer that is responsible for the code created a really nice wizard to make it easier to deploy. The other call out here is that Applocker evolved to Windows Defender for Applicaiton Control and again to Application Control for Business.
 
 ## Prerequisites
-* [Microsoft WDAC Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
+* [App Control Policy Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
 
 ## Setup
 Get a list of files, folder locations, or drivers you want to block from running in the environment.
 * Example: Notepad.exe, Java version from running, or blocking executables from running in a certain folder.
 
-Assuming you have list of at least a couple or one item you want blocked we can move to opening the Microsoft WDAC Wizard.
+Assuming you have list of at least a couple or one item you want blocked we can move to opening the App Control Policy Wizard.
 ![image](https://github.com/user-attachments/assets/df1a6817-6d18-475c-899c-5409ffd47cac)
 
 For this example, we are going to assuming you are creating this from scratch. We are going to create a Base Policy with Multiple Policy Format support.
@@ -76,5 +76,5 @@ Good luck with your Application Control Policy and testing.
 
 ## References:
 * [Understand App Control for Business policy rules and file rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/select-types-of-rules-to-create)
-* [Microsoft WDAC Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
+* [App Control Policy Wizard](https://webapp-wdac-wizard.azurewebsites.net/)
 * [Deploying App Control for Business policies](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/appcontrol-deployment-guide)
