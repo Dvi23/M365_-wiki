@@ -1,7 +1,7 @@
 Migrating from Microsoft Defender for endpoint client from Commercial to GCC tenant. This is assuming you have already worked with your CSAM and the Microsoft Transition team and have already onboarded one device to the new GCC tenant first. This is required as backend tenant information needs to be configured. Quick link to this page: [https://aka.ms/DefenderCommercialtoGCCDoc](https://aka.ms/DefenderCommercialtoGCCDoc)
 
 1. Have CSAM open transition ticket to make. 
-2. Once the transition is complete and the single device is in the GCC Defender XDR Portal, migrate the Intune/ConfigManager/GPO: 
+2. Once the transition has completed the copying of configurations and the single device is in the GCC Defender XDR Portal, migrate the Intune/ConfigManager/GPO: 
 Using Intune to Migrate agents into GCC Tenant.
 * Navigate to Intune Admin Center (https://intune.microsoft.com/ )
 * Select Endpoint Security on the left hand side
